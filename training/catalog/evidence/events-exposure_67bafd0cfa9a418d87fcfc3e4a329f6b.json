@@ -1,0 +1,94 @@
+[
+  {
+    "action": "capacity_reserved",
+    "created": 1794839830.481064,
+    "payload": {
+      "generation": 1,
+      "units": 65536
+    },
+    "seq": 216,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "queued",
+    "created": 1794839830.4811828,
+    "payload": {
+      "seal_id": "seal_a061a4440c944cb39fea7fa781524531"
+    },
+    "seq": 217,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "claimed",
+    "created": 1794839830.4979608,
+    "payload": {
+      "token": "lease_316899965b324ae3b0eeb6693743dfc5"
+    },
+    "seq": 222,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "failed",
+    "created": 1794839830.5217478,
+    "payload": {
+      "error": "capacity"
+    },
+    "seq": 223,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "capacity_released",
+    "created": 1794839830.5217931,
+    "payload": {
+      "reason": "failed"
+    },
+    "seq": 224,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "capacity_reserved",
+    "created": 1794839831.021755,
+    "payload": {
+      "generation": 2,
+      "units": 65536
+    },
+    "seq": 265,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "retried",
+    "created": 1794839831.0218651,
+    "payload": {
+      "attempt": 1
+    },
+    "seq": 266,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "claimed",
+    "created": 1794839831.0273702,
+    "payload": {
+      "token": "lease_38ea9fabac7f4cc89189bb422b004d69"
+    },
+    "seq": 267,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "failed",
+    "created": 1794839831.0558128,
+    "payload": {
+      "error": "capacity"
+    },
+    "seq": 268,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  },
+  {
+    "action": "capacity_released",
+    "created": 1794839831.0558653,
+    "payload": {
+      "reason": "failed"
+    },
+    "seq": 269,
+    "subject": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b"
+  }
+]

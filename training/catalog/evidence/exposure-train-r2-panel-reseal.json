@@ -1,0 +1,30 @@
+{
+  "allocation": {
+    "active": 0,
+    "exposure_id": "exposure_d78a2e06a0514f48abf716d762c130af",
+    "generation": 1,
+    "release_reason": "succeeded",
+    "released": 1794839829.2098405,
+    "reserved": 1794839828.6185462,
+    "units": 65536
+  },
+  "attempt": 1,
+  "cancel_requested": 0,
+  "created": 1794839828.6186059,
+  "dedup_key": "train-r2-panel-reseal",
+  "error": null,
+  "id": "exposure_d78a2e06a0514f48abf716d762c130af",
+  "lease_until": null,
+  "plate_id": "plate_806d401658e041b0af6222c557bfa9bd",
+  "request": {
+    "height": 128,
+    "renderer": "facet-raster-1",
+    "samples": 2,
+    "width": 128
+  },
+  "request_hash": "10318514051cc075f17a3e563e4ecf8554c27d5bfed5c7564cc43ae20f4ed4c8",
+  "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+  "state": "succeeded",
+  "token": null,
+  "updated": 1794839829.2097034
+}

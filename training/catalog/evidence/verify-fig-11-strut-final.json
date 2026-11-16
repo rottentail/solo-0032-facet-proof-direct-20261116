@@ -1,0 +1,11 @@
+{
+  "passes": {
+    "color.png": "1e4ed65ae2268491ec232e8a031e0f9db94e7b1925ac61c41f162ddf38c63b5d",
+    "color.rgb": "d570b1093c4eb31f2d0ccee9bdef195110dce0c2e272543e78521734a77571b1",
+    "depth.f32": "daecdf3b1646550f647dc5820aeccf0cbae5e8aaf173529955c8563128d637fe",
+    "depth.png": "68cebf0227bcfbe8893993fef3a857c1a35d2c464060a3beeae40ea630fe8a25",
+    "object.png": "1266b52abdbea895f968733c086da6a2c2753993b39d6d939486c66f6e97bdeb",
+    "object.u32": "189bfd04102624467e86a6b69fc0066f7dc467ba7426153af51d9eae59f85ba9"
+  },
+  "valid": true
+}

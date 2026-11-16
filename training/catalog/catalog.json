@@ -1,0 +1,1881 @@
+{
+  "batch_round4": {
+    "failed": 1,
+    "items": [
+      {
+        "attempt": 2,
+        "error": "capacity",
+        "exposure_id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+        "key": "train-r4-deck",
+        "plate_id": null,
+        "state": "failed"
+      },
+      {
+        "attempt": 1,
+        "error": null,
+        "exposure_id": "exposure_48e4811932f94f6bb107128c40b7b08e",
+        "key": "train-r4-overview-final",
+        "plate_id": "plate_f7ec3606cc33497f976a08188cff1ab8",
+        "state": "succeeded"
+      },
+      {
+        "attempt": 1,
+        "error": null,
+        "exposure_id": "exposure_ed1bccca77664c3ba033006b3e564ece",
+        "key": "train-r4-strut-final",
+        "plate_id": "plate_0ec793a9f2ab412084a63a41c104aa71",
+        "state": "succeeded"
+      }
+    ],
+    "note": "批量中一份失败即整体标记失败；成功项不掩盖失败项。",
+    "round": 4,
+    "status": "failed",
+    "submitted": 3,
+    "succeeded": 2
+  },
+  "capacity": {
+    "available": 4194304,
+    "capacity": 4194304,
+    "overcommitted": 0,
+    "physical_memory_limit": false,
+    "reserved": 0,
+    "revision": 1,
+    "unit": "high_sample_pixel"
+  },
+  "comparisons": {
+    "cmp-after-retire": {
+      "color_changed": 0,
+      "depth_changed": 0,
+      "left": "plate_f8914abc8bf34a459597f41ddc2e06a6",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 0.0,
+      "pass_hashes": {
+        "left": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb",
+        "right": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "pixels": 16384,
+      "right": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "cmp-final-overview": {
+      "color_changed": 0,
+      "depth_changed": 0,
+      "left": "plate_f7ec3606cc33497f976a08188cff1ab8",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 0.0,
+      "pass_hashes": {
+        "left": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb",
+        "right": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "pixels": 16384,
+      "right": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "cmp-final-strut": {
+      "color_changed": 0,
+      "depth_changed": 0,
+      "left": "plate_0ec793a9f2ab412084a63a41c104aa71",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 0.0,
+      "pass_hashes": {
+        "left": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa",
+        "right": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+      },
+      "pixels": 16384,
+      "right": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "cmp-reseal-overview": {
+      "color_changed": 0,
+      "depth_changed": 0,
+      "left": "plate_b632431169734e9580cbaddc951fb865",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 0.0,
+      "pass_hashes": {
+        "left": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb",
+        "right": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "pixels": 16384,
+      "right": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "cmp-reseal-panel": {
+      "color_changed": 0,
+      "depth_changed": 0,
+      "left": "plate_806d401658e041b0af6222c557bfa9bd",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 0.0,
+      "pass_hashes": {
+        "left": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04",
+        "right": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+      },
+      "pixels": 16384,
+      "right": "plate_6afeb07af8234a969d69baf34c9a1087",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "cmp-revised-vs-baseline": {
+      "color_changed": 1538,
+      "depth_changed": 0,
+      "left": "plate_481f925966ad4147bf5e305756090d48",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 3.5592244466145835,
+      "pass_hashes": {
+        "left": "8e47f75cecf520356bd755c784e922415941f7769da4ad8fa97dbd780b0fe9ea",
+        "right": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "pixels": 16384,
+      "right": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    }
+  },
+  "figures": [
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_09c6663cfb3b4df7a258a4e16f1d6da8.json",
+        "exposure": "catalog/evidence/exposure-train-r1-overview.json",
+        "facetreader": "catalog/evidence/facetreader-fig-01-overview-baseline.json",
+        "verify": "catalog/evidence/verify-fig-01-overview-baseline.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-01-overview-baseline.zip",
+        "color.png": "atlas/fig-01-overview-baseline/color.png",
+        "depth.png": "atlas/fig-01-overview-baseline/depth.png",
+        "object.png": "atlas/fig-01-overview-baseline/object.png"
+      },
+      "lesson": "装配复用共享网格「斜翼面板」（釉青）与「三角支架」（赭橙）的首次冻结渲染。",
+      "round": 1,
+      "slug": "fig-01-overview-baseline",
+      "source": {
+        "exposure_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+        "exposure_key": "train-r1-overview",
+        "plate_id": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+        "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2879,
+          "depth_units": "camera_forward_distance",
+          "fragments": 13750,
+          "triangles": 14
+        },
+        "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "status": "ready",
+      "title": "总装说明图（基线）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13505,
+            "covered_pixels": 2879,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              5.352877616882324,
+              8.097167015075684
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 2,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "pick": {
+          "depth": 7.494783401489258,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_615a86dab53241f39cdc06fc93c292e4",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_36ce7bde69bb443e9112b8ef40dc480e.json",
+        "exposure": "catalog/evidence/exposure-train-r1-panel.json",
+        "facetreader": "catalog/evidence/facetreader-fig-02-panel-baseline.json",
+        "verify": "catalog/evidence/verify-fig-02-panel-baseline.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-02-panel-baseline.zip",
+        "color.png": "atlas/fig-02-panel-baseline/color.png",
+        "depth.png": "atlas/fig-02-panel-baseline/depth.png",
+        "object.png": "atlas/fig-02-panel-baseline/object.png"
+      },
+      "lesson": "同一共享网格「斜翼面板」与材质「釉青」在第二份装配（正交特写）中的复用。",
+      "round": 1,
+      "slug": "fig-02-panel-baseline",
+      "source": {
+        "exposure_id": "exposure_36ce7bde69bb443e9112b8ef40dc480e",
+        "exposure_key": "train-r1-panel",
+        "plate_id": "plate_6afeb07af8234a969d69baf34c9a1087",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "b5f58c9955996a812ad1db83a78ea9757fcc7ec92aee0d15bd6a4124d21a476f",
+        "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 5327,
+          "depth_units": "camera_forward_distance",
+          "fragments": 21161,
+          "triangles": 6
+        },
+        "visual_hash": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+      },
+      "status": "ready",
+      "title": "面板特写（基线）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 11057,
+            "covered_pixels": 5327,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              3.44093656539917,
+              5.020038604736328
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 1,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "pick": {
+          "depth": 3.674105405807495,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_76e8003700c840669b8673fef25f889e",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_5518ef049ed74266858166305128a632.json",
+        "exposure": "catalog/evidence/exposure-train-r1-strut.json",
+        "facetreader": "catalog/evidence/facetreader-fig-03-strut-baseline.json",
+        "verify": "catalog/evidence/verify-fig-03-strut-baseline.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-03-strut-baseline.zip",
+        "color.png": "atlas/fig-03-strut-baseline/color.png",
+        "depth.png": "atlas/fig-03-strut-baseline/depth.png",
+        "object.png": "atlas/fig-03-strut-baseline/object.png"
+      },
+      "lesson": "共享网格「三角支架」与材质「赭橙」在第二份装配中的复用。",
+      "round": 1,
+      "slug": "fig-03-strut-baseline",
+      "source": {
+        "exposure_id": "exposure_5518ef049ed74266858166305128a632",
+        "exposure_key": "train-r1-strut",
+        "plate_id": "plate_7f6bddeead0140949c2108fac662379e",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "b6dcddd732b364ff6ed3afffee10deef5218bee689c78ea7386fc476a5f50d58",
+        "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2976,
+          "depth_units": "camera_forward_distance",
+          "fragments": 16929,
+          "triangles": 8
+        },
+        "visual_hash": "6a0dc5d024b3f491bddb15883777545a730488ead3aa181395c282681b48a04d"
+      },
+      "status": "ready",
+      "title": "支架特写（基线）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13408,
+            "covered_pixels": 2976,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              3.4903507232666016,
+              4.340266227722168
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 1,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "pick": {
+          "depth": 3.788139820098877,
+          "object": {
+            "key": "strut",
+            "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+            "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+          },
+          "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_1a93b0e2859a4a13bca03656327524b2",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_282bb71419b84ab886c1bbb58dac6b4e.json",
+        "exposure": "catalog/evidence/exposure-train-r2-overview-reseal.json",
+        "facetreader": "catalog/evidence/facetreader-fig-04-overview-reseal.json",
+        "verify": "catalog/evidence/verify-fig-04-overview-reseal.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-04-overview-reseal.zip",
+        "color.png": "atlas/fig-04-overview-reseal/color.png",
+        "depth.png": "atlas/fig-04-overview-reseal/depth.png",
+        "object.png": "atlas/fig-04-overview-reseal/object.png"
+      },
+      "lesson": "材质「釉青」修订后重渲旧快照：与 fig-01 逐像素一致——旧图可复现。",
+      "round": 2,
+      "slug": "fig-04-overview-reseal",
+      "source": {
+        "exposure_id": "exposure_282bb71419b84ab886c1bbb58dac6b4e",
+        "exposure_key": "train-r2-overview-reseal",
+        "plate_id": "plate_b632431169734e9580cbaddc951fb865",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+        "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2879,
+          "depth_units": "camera_forward_distance",
+          "fragments": 13750,
+          "triangles": 14
+        },
+        "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "status": "ready",
+      "title": "总装说明图（材质修订后·旧快照重渲）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13505,
+            "covered_pixels": 2879,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              5.352877616882324,
+              8.097167015075684
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 2,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "identical_to": "fig-01-overview-baseline",
+        "pick": {
+          "depth": 7.494783401489258,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_45b4a5b6e98b4531aa06816ea5e837dc",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_d78a2e06a0514f48abf716d762c130af.json",
+        "exposure": "catalog/evidence/exposure-train-r2-panel-reseal.json",
+        "facetreader": "catalog/evidence/facetreader-fig-05-panel-reseal.json",
+        "verify": "catalog/evidence/verify-fig-05-panel-reseal.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-05-panel-reseal.zip",
+        "color.png": "atlas/fig-05-panel-reseal/color.png",
+        "depth.png": "atlas/fig-05-panel-reseal/depth.png",
+        "object.png": "atlas/fig-05-panel-reseal/object.png"
+      },
+      "lesson": "旧快照的冻结闭包保留了材质副本，上游修订不影响已冻结说明图。",
+      "round": 2,
+      "slug": "fig-05-panel-reseal",
+      "source": {
+        "exposure_id": "exposure_d78a2e06a0514f48abf716d762c130af",
+        "exposure_key": "train-r2-panel-reseal",
+        "plate_id": "plate_806d401658e041b0af6222c557bfa9bd",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "b5f58c9955996a812ad1db83a78ea9757fcc7ec92aee0d15bd6a4124d21a476f",
+        "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 5327,
+          "depth_units": "camera_forward_distance",
+          "fragments": 21161,
+          "triangles": 6
+        },
+        "visual_hash": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+      },
+      "status": "ready",
+      "title": "面板特写（材质修订后·旧快照重渲）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 11057,
+            "covered_pixels": 5327,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              3.44093656539917,
+              5.020038604736328
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 1,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "identical_to": "fig-02-panel-baseline",
+        "pick": {
+          "depth": 3.674105405807495,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_fbeb94196d5f473dbc2259eb608ceacd",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_ef111054be144744a8a66abc632bf06b.json",
+        "exposure": "catalog/evidence/exposure-train-r2-overview-revised.json",
+        "facetreader": "catalog/evidence/facetreader-fig-06-overview-revised.json",
+        "verify": "catalog/evidence/verify-fig-06-overview-revised.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-06-overview-revised.zip",
+        "color.png": "atlas/fig-06-overview-revised/color.png",
+        "depth.png": "atlas/fig-06-overview-revised/depth.png",
+        "object.png": "atlas/fig-06-overview-revised/object.png"
+      },
+      "lesson": "派生装配在材质修订后重新冻结：几何不变、面板颜色改变——材质修订只影响新冻结。",
+      "round": 2,
+      "slug": "fig-06-overview-revised",
+      "source": {
+        "exposure_id": "exposure_ef111054be144744a8a66abc632bf06b",
+        "exposure_key": "train-r2-overview-revised",
+        "plate_id": "plate_481f925966ad4147bf5e305756090d48",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "3434bba292ee219518b795c6fafff8c2a20cc903a2eba9ee08273eb7d2c132dc",
+        "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2879,
+          "depth_units": "camera_forward_distance",
+          "fragments": 13750,
+          "triangles": 14
+        },
+        "visual_hash": "8e47f75cecf520356bd755c784e922415941f7769da4ad8fa97dbd780b0fe9ea"
+      },
+      "status": "ready",
+      "title": "总装说明图（材质修订后·新冻结）",
+      "verification": {
+        "differs_from": "fig-01-overview-baseline",
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13505,
+            "covered_pixels": 2879,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              5.352877616882324,
+              8.097167015075684
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 2,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "pick": {
+          "depth": 7.494783401489258,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_e3fc5c8528fa450e8d5fe0d05031d775",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_71353eefaefe4d8eba1288cded01d4d1.json",
+        "exposure": "catalog/evidence/exposure-train-r3-overview-after-retire.json",
+        "facetreader": "catalog/evidence/facetreader-fig-07-overview-after-retire.json",
+        "verify": "catalog/evidence/verify-fig-07-overview-after-retire.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-07-overview-after-retire.zip",
+        "color.png": "atlas/fig-07-overview-after-retire/color.png",
+        "depth.png": "atlas/fig-07-overview-after-retire/depth.png",
+        "object.png": "atlas/fig-07-overview-after-retire/object.png"
+      },
+      "lesson": "「斜翼面板」停用后旧快照仍可重渲且逐像素一致——停用只限制新冻结。",
+      "round": 3,
+      "slug": "fig-07-overview-after-retire",
+      "source": {
+        "exposure_id": "exposure_71353eefaefe4d8eba1288cded01d4d1",
+        "exposure_key": "train-r3-overview-after-retire",
+        "plate_id": "plate_f8914abc8bf34a459597f41ddc2e06a6",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+        "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2879,
+          "depth_units": "camera_forward_distance",
+          "fragments": 13750,
+          "triangles": 14
+        },
+        "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "status": "ready",
+      "title": "总装说明图（网格停用后·旧快照重渲）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13505,
+            "covered_pixels": 2879,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              5.352877616882324,
+              8.097167015075684
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 2,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "identical_to": "fig-01-overview-baseline",
+        "pick": {
+          "depth": 7.494783401489258,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_20a7345ab4c54ef6b682133ec02b73eb",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_0725df8709c344daa9a1a0b33999c902.json",
+        "exposure": "catalog/evidence/exposure-train-r3-strut-new.json",
+        "facetreader": "catalog/evidence/facetreader-fig-08-strut-new.json",
+        "verify": "catalog/evidence/verify-fig-08-strut-new.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-08-strut-new.zip",
+        "color.png": "atlas/fig-08-strut-new/color.png",
+        "depth.png": "atlas/fig-08-strut-new/depth.png",
+        "object.png": "atlas/fig-08-strut-new/object.png"
+      },
+      "lesson": "不引用停用网格的新装配照常冻结渲染——停用限制仅及于引用它的新冻结。",
+      "round": 3,
+      "slug": "fig-08-strut-new",
+      "source": {
+        "exposure_id": "exposure_0725df8709c344daa9a1a0b33999c902",
+        "exposure_key": "train-r3-strut-new",
+        "plate_id": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+        "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2823,
+          "depth_units": "camera_forward_distance",
+          "fragments": 16264,
+          "triangles": 8
+        },
+        "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+      },
+      "status": "ready",
+      "title": "支架说明图（网格停用后·新冻结）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13561,
+            "covered_pixels": 2823,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              3.7006683349609375,
+              4.542236804962158
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 1,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "pick": {
+          "depth": null,
+          "object": null,
+          "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_36df8e473ee8483092275f53eca380b5",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "batch": "catalog/evidence/batch-round4.json",
+        "events": "catalog/evidence/events-exposure_67bafd0cfa9a418d87fcfc3e4a329f6b.json",
+        "exposure": "catalog/evidence/exposure-train-r4-deck.json"
+      },
+      "failure": {
+        "attempt": 2,
+        "error": "capacity",
+        "note": "冻结成功、渲染超 40000 源面额度；重试后仍以相同错误失败，属确定性失败。",
+        "retried": true,
+        "state": "failed"
+      },
+      "files": {
+        "failure_notice": "atlas/fig-09-deck-layout/FAILED.md"
+      },
+      "lesson": "冻结成功但渲染超出 40000 源面额度：曝光终态 failed，重试仍失败，证据可查询。",
+      "round": 4,
+      "slug": "fig-09-deck-layout",
+      "source": {
+        "exposure_id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+        "exposure_key": "train-r4-deck",
+        "seal_content_hash": "7028d9128e8cfbc846d908052e8921c59fd836789dfef9f346b90ae9e52b09c0",
+        "seal_id": "seal_a061a4440c944cb39fea7fa781524531"
+      },
+      "status": "failed",
+      "title": "整舰布局图（批量·失败）"
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_48e4811932f94f6bb107128c40b7b08e.json",
+        "exposure": "catalog/evidence/exposure-train-r4-overview-final.json",
+        "facetreader": "catalog/evidence/facetreader-fig-10-overview-final.json",
+        "verify": "catalog/evidence/verify-fig-10-overview-final.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-10-overview-final.zip",
+        "color.png": "atlas/fig-10-overview-final/color.png",
+        "depth.png": "atlas/fig-10-overview-final/depth.png",
+        "object.png": "atlas/fig-10-overview-final/object.png"
+      },
+      "lesson": "与 fig-09 同批的成功项：旧快照再次重渲，仍与基线一致。",
+      "round": 4,
+      "slug": "fig-10-overview-final",
+      "source": {
+        "exposure_id": "exposure_48e4811932f94f6bb107128c40b7b08e",
+        "exposure_key": "train-r4-overview-final",
+        "plate_id": "plate_f7ec3606cc33497f976a08188cff1ab8",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+        "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2879,
+          "depth_units": "camera_forward_distance",
+          "fragments": 13750,
+          "triangles": 14
+        },
+        "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+      },
+      "status": "ready",
+      "title": "总装说明图（批量终版）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13505,
+            "covered_pixels": 2879,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              5.352877616882324,
+              8.097167015075684
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 2,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "identical_to": "fig-01-overview-baseline",
+        "pick": {
+          "depth": 7.494783401489258,
+          "object": {
+            "key": "panel",
+            "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+            "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+          },
+          "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_87a52cd09a50452da68052898c5a970a",
+          "state": "accepted"
+        }
+      }
+    },
+    {
+      "evidence": {
+        "events": "catalog/evidence/events-exposure_ed1bccca77664c3ba033006b3e564ece.json",
+        "exposure": "catalog/evidence/exposure-train-r4-strut-final.json",
+        "facetreader": "catalog/evidence/facetreader-fig-11-strut-final.json",
+        "verify": "catalog/evidence/verify-fig-11-strut-final.json"
+      },
+      "files": {
+        "bundle": "catalog/bundles/fig-11-strut-final.zip",
+        "color.png": "atlas/fig-11-strut-final/color.png",
+        "depth.png": "atlas/fig-11-strut-final/depth.png",
+        "object.png": "atlas/fig-11-strut-final/object.png"
+      },
+      "lesson": "同批成功项：新冻结快照的重渲，与 fig-08 一致。",
+      "round": 4,
+      "slug": "fig-11-strut-final",
+      "source": {
+        "exposure_id": "exposure_ed1bccca77664c3ba033006b3e564ece",
+        "exposure_key": "train-r4-strut-final",
+        "plate_id": "plate_0ec793a9f2ab412084a63a41c104aa71",
+        "request": {
+          "height": 128,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 128
+        },
+        "seal_content_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+        "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 2823,
+          "depth_units": "camera_forward_distance",
+          "fragments": 16264,
+          "triangles": 8
+        },
+        "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+      },
+      "status": "ready",
+      "title": "支架说明图（批量终版）",
+      "verification": {
+        "facetreader": {
+          "summary": {
+            "background_pixels": 13561,
+            "covered_pixels": 2823,
+            "depth_units": "camera_forward_distance",
+            "finite_depth_range": [
+              3.7006683349609375,
+              4.542236804962158
+            ],
+            "height": 128,
+            "object_id_scope": "local_to_this_plate",
+            "objects": 1,
+            "samples": 2,
+            "width": 128
+          },
+          "valid": true
+        },
+        "file_integrity": "下载的 PNG 字节与图版登记摘要逐一相等",
+        "identical_to": "fig-08-strut-new",
+        "pick": {
+          "depth": null,
+          "object": null,
+          "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+          "x": 64,
+          "y": 64
+        },
+        "plate_verify": "valid",
+        "proof": {
+          "id": "proof_6c3f29f6a93e4c119e92d93a92ed9ccb",
+          "state": "accepted"
+        }
+      }
+    }
+  ],
+  "idempotency": {
+    "cross_round_key_reuse": {
+      "attempted_seal": "seal_1f207653ce7c4319a843bd3e1c14598f",
+      "expected": "key_conflict",
+      "key": "train-r1-overview",
+      "observed": {
+        "code": "key_conflict",
+        "detail": "Key already names a different exposure",
+        "http_status": 409
+      }
+    },
+    "replay_same_request": {
+      "exposure_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+      "key": "train-r1-overview",
+      "replayed_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+      "same_exposure": true
+    }
+  },
+  "impact_matrix": [
+    {
+      "affected": [
+        "fig-06-overview-revised（修订后的新冻结）"
+      ],
+      "event": "材质修订：釉青 [0.12, 0.62, 0.61] → [0.16, 0.32, 0.85]",
+      "evidence": "cmp-revised-vs-baseline 颜色差异 1538 像素、轮廓差异 0；cmp-reseal-overview、cmp-reseal-panel 三项差异全 0",
+      "unaffected": [
+        "fig-01/02/04/05/07/10（全部旧快照及其重渲）"
+      ]
+    },
+    {
+      "affected": [
+        "新冻结被拒 2 起：冻结引用停用网格的草稿、在新草稿放置停用网格（均 409 retired）"
+      ],
+      "event": "网格停用：斜翼面板 retire",
+      "evidence": "catalog/evidence/rejections.json；cmp-after-retire 三项差异全 0",
+      "unaffected": [
+        "fig-01/04/07/10（旧快照 S1 及其重渲）"
+      ]
+    },
+    {
+      "affected": [
+        "产生与基线逐像素一致的新图版：fig-04、fig-05、fig-07、fig-10"
+      ],
+      "event": "旧快照重渲",
+      "evidence": "重渲图版 visual_hash 与基线完全相等；对应 comparison 三项差异全 0",
+      "unaffected": [
+        "—"
+      ]
+    },
+    {
+      "affected": [
+        "fig-09-deck-layout：failed（capacity），重试仍失败"
+      ],
+      "event": "批量制作中的单份失败",
+      "evidence": "catalog/evidence/batch-round4.json；catalog/failures.json；曝光事件流",
+      "unaffected": [
+        "同批 fig-10、fig-11 正常成功"
+      ]
+    }
+  ],
+  "rejections": [
+    {
+      "expected": "retired",
+      "observed": {
+        "code": "retired",
+        "detail": "Geometry retired before seal",
+        "http_status": 409
+      },
+      "operation": "冻结引用已停用网格的草稿（面板新方案）"
+    },
+    {
+      "expected": "retired",
+      "observed": {
+        "code": "retired",
+        "detail": "Cannot place retired geometry",
+        "http_status": 409
+      },
+      "operation": "在新草稿中放置已停用网格"
+    }
+  ],
+  "request": {
+    "height": 128,
+    "samples": 2,
+    "width": 128
+  },
+  "rerun_stability": {
+    "checked_against_run": 2,
+    "stable": true,
+    "summary": "第 3 次运行与既有记录完全一致：曝光、图版、visual_hash 均未漂移，未另起来源。"
+  },
+  "run_seq": 3,
+  "schema": "facet-training-catalog-1",
+  "seals": {
+    "deck": {
+      "assembly_id": "assembly_6e1d539fb2924826b8e1c23573650877",
+      "assembly_revision": 2,
+      "content_hash": "7028d9128e8cfbc846d908052e8921c59fd836789dfef9f346b90ae9e52b09c0",
+      "frozen_resources": [
+        {
+          "key": "deck-00",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-01",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-02",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-03",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-04",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-05",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-06",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-07",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-08",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-09",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-10",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-11",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-12",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-13",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-14",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-15",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-16",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-17",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-18",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-19",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        },
+        {
+          "key": "deck-20",
+          "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+          "mesh_name": "格栅甲板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          0.0,
+          -26.0,
+          16.0
+        ],
+        "far": 100.0,
+        "forward": [
+          0.0,
+          0.851658316704544,
+          -0.5240974256643347
+        ],
+        "fov": 50.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        "span": 5.0,
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_up": [
+          0.0,
+          0.5240974256643347,
+          0.851658316704544
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "整舰布局图",
+      "seal_id": "seal_a061a4440c944cb39fea7fa781524531"
+    },
+    "overview": {
+      "assembly_id": "assembly_76a90a4752cd4cda8803832305de4f21",
+      "assembly_revision": 2,
+      "content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+      "frozen_resources": [
+        {
+          "key": "panel",
+          "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+          "mesh_name": "斜翼面板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.12,
+            0.62,
+            0.61
+          ],
+          "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+          "pigment_name": "釉青",
+          "pigment_revision": 1
+        },
+        {
+          "key": "strut",
+          "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+          "mesh_name": "三角支架",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          3.4,
+          2.6,
+          5.4
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.5106578958343229,
+          -0.3905030968144822,
+          -0.7659868437514844
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          0.8320502943378437,
+          0.0,
+          -0.554700196225229
+        ],
+        "span": 5.0,
+        "target": [
+          0.0,
+          0.0,
+          0.3
+        ],
+        "true_up": [
+          -0.21661214442955296,
+          0.9206016138256001,
+          -0.32491821664432946
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "总装说明图",
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2"
+    },
+    "overview-revised": {
+      "assembly_id": "assembly_1a43bf1b51ec44d7b376aa32e1ff3cd6",
+      "assembly_revision": 1,
+      "content_hash": "3434bba292ee219518b795c6fafff8c2a20cc903a2eba9ee08273eb7d2c132dc",
+      "frozen_resources": [
+        {
+          "key": "panel",
+          "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+          "mesh_name": "斜翼面板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.16,
+            0.32,
+            0.85
+          ],
+          "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+          "pigment_name": "釉青",
+          "pigment_revision": 2
+        },
+        {
+          "key": "strut",
+          "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+          "mesh_name": "三角支架",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          3.4,
+          2.6,
+          5.4
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.5106578958343229,
+          -0.3905030968144822,
+          -0.7659868437514844
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          0.8320502943378437,
+          0.0,
+          -0.554700196225229
+        ],
+        "span": 5.0,
+        "target": [
+          0.0,
+          0.0,
+          0.3
+        ],
+        "true_up": [
+          -0.21661214442955296,
+          0.9206016138256001,
+          -0.32491821664432946
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "总装说明图（修订）",
+      "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f"
+    },
+    "panel": {
+      "assembly_id": "assembly_015aa8d0b8da42de88f7205a71f628e7",
+      "assembly_revision": 2,
+      "content_hash": "b5f58c9955996a812ad1db83a78ea9757fcc7ec92aee0d15bd6a4124d21a476f",
+      "frozen_resources": [
+        {
+          "key": "panel",
+          "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+          "mesh_name": "斜翼面板",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.12,
+            0.62,
+            0.61
+          ],
+          "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+          "pigment_name": "釉青",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          0.4,
+          0.6,
+          4.5
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.0960861317784127,
+          -0.14412919766761903,
+          -0.98488285072873
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "orthographic",
+        "right": [
+          0.995274633925616,
+          0.0,
+          -0.09709996428542597
+        ],
+        "span": 3.4,
+        "target": [
+          0.0,
+          0.0,
+          0.4
+        ],
+        "true_up": [
+          -0.013994939946012908,
+          0.9895588786826626,
+          -0.14344813444663226
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "面板特写",
+      "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58"
+    },
+    "strut": {
+      "assembly_id": "assembly_9092b819771c4a108191697b28a47677",
+      "assembly_revision": 2,
+      "content_hash": "b6dcddd732b364ff6ed3afffee10deef5218bee689c78ea7386fc476a5f50d58",
+      "frozen_resources": [
+        {
+          "key": "strut",
+          "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+          "mesh_name": "三角支架",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          2.8,
+          2.2,
+          3.4
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.5453054798270401,
+          -0.4030518763938993,
+          -0.7349769510712281
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          0.8030980282338017,
+          0.0,
+          -0.5958469241734657
+        ],
+        "span": 5.0,
+        "target": [
+          0.5,
+          0.5,
+          0.3
+        ],
+        "true_up": [
+          -0.24015722083164884,
+          0.9151771330924725,
+          -0.3236901672078745
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "支架特写",
+      "seal_id": "seal_cda364244ef247509041b24c4f21ae7b"
+    },
+    "strut-v2": {
+      "assembly_id": "assembly_6ea7133628ce4962b829dbd9241f441b",
+      "assembly_revision": 2,
+      "content_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+      "frozen_resources": [
+        {
+          "key": "strut",
+          "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+          "mesh_name": "三角支架",
+          "mesh_revision": 1,
+          "pigment_color": [
+            0.85,
+            0.45,
+            0.15
+          ],
+          "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+          "pigment_name": "赭橙",
+          "pigment_revision": 1
+        }
+      ],
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          2.6,
+          2.0,
+          3.0
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.5739998553141042,
+          -0.41745444022843947,
+          -0.7044543678854915
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          0.7752349855172893,
+          0.0,
+          -0.6316729511622358
+        ],
+        "span": 5.0,
+        "target": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "true_up": [
+          -0.2636946782348776,
+          0.908697854258257,
+          -0.32362528692462245
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "支架说明图（新）",
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f"
+    }
+  },
+  "service": {
+    "integrity": "ok",
+    "renderer": "facet-raster-1"
+  },
+  "shared_resources": [
+    {
+      "id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "kind": "meshes",
+      "logical": "mesh.deck",
+      "name": "格栅甲板",
+      "revision": 1,
+      "state": "usable"
+    },
+    {
+      "id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "kind": "meshes",
+      "logical": "mesh.panel",
+      "name": "斜翼面板",
+      "revision": 2,
+      "state": "retired"
+    },
+    {
+      "id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "kind": "meshes",
+      "logical": "mesh.strut",
+      "name": "三角支架",
+      "revision": 1,
+      "state": "usable"
+    },
+    {
+      "id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "kind": "pigments",
+      "logical": "pigment.amber",
+      "name": "赭橙",
+      "revision": 1,
+      "state": "usable"
+    },
+    {
+      "id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+      "kind": "pigments",
+      "logical": "pigment.teal",
+      "name": "釉青",
+      "revision": 2,
+      "state": "usable"
+    }
+  ]
+}

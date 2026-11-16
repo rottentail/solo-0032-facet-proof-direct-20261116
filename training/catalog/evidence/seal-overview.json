@@ -1,0 +1,97 @@
+{
+  "assembly_id": "assembly_76a90a4752cd4cda8803832305de4f21",
+  "assembly_revision": 2,
+  "content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+  "frozen_resources": [
+    {
+      "key": "panel",
+      "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "mesh_name": "斜翼面板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.12,
+        0.62,
+        0.61
+      ],
+      "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+      "pigment_name": "釉青",
+      "pigment_revision": 1
+    },
+    {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "mesh_name": "三角支架",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    }
+  ],
+  "illumination": {
+    "ambient": 0.16,
+    "background": [
+      0.93,
+      0.95,
+      0.97
+    ],
+    "lights": [
+      {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "direction": [
+          0.2672612419124244,
+          0.5345224838248488,
+          0.8017837257372732
+        ],
+        "intensity": 0.8
+      }
+    ]
+  },
+  "lens": {
+    "eye": [
+      3.4,
+      2.6,
+      5.4
+    ],
+    "far": 100.0,
+    "forward": [
+      -0.5106578958343229,
+      -0.3905030968144822,
+      -0.7659868437514844
+    ],
+    "fov": 45.0,
+    "near": 0.1,
+    "projection": "perspective",
+    "right": [
+      0.8320502943378437,
+      0.0,
+      -0.554700196225229
+    ],
+    "span": 5.0,
+    "target": [
+      0.0,
+      0.0,
+      0.3
+    ],
+    "true_up": [
+      -0.21661214442955296,
+      0.9206016138256001,
+      -0.32491821664432946
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "name": "总装说明图",
+  "seal_id": "seal_da80da01fca94744b12108c85a2c57e2"
+}

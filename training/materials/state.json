@@ -1,0 +1,162 @@
+{
+  "assemblies": {
+    "deck": "assembly_6e1d539fb2924826b8e1c23573650877",
+    "overview": "assembly_76a90a4752cd4cda8803832305de4f21",
+    "overview-revised": "assembly_1a43bf1b51ec44d7b376aa32e1ff3cd6",
+    "panel": "assembly_015aa8d0b8da42de88f7205a71f628e7",
+    "panel-v2": "assembly_a055c243f9524c61a038746117b83554",
+    "scratch": "assembly_cef3e3053c48497da89b919683785ece",
+    "strut": "assembly_9092b819771c4a108191697b28a47677",
+    "strut-v2": "assembly_6ea7133628ce4962b829dbd9241f441b"
+  },
+  "comparisons": {
+    "cmp-after-retire": "comparison_77b27e92f41a44bcb85ef7519643e6a5",
+    "cmp-final-overview": "comparison_5ffbca0888db450e91e6c8d0b7c3b981",
+    "cmp-final-strut": "comparison_b6884716b221446eaf85c9bad14f3e84",
+    "cmp-reseal-overview": "comparison_fb7fb72909f74bd2a99f8ba087163a91",
+    "cmp-reseal-panel": "comparison_82ac314b4ddd4b1db4c126ef776a5e22",
+    "cmp-revised-vs-baseline": "comparison_5922905bdb5f4b329547c95137a7e342"
+  },
+  "exposures": {
+    "train-r1-overview": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+    "train-r1-panel": "exposure_36ce7bde69bb443e9112b8ef40dc480e",
+    "train-r1-strut": "exposure_5518ef049ed74266858166305128a632",
+    "train-r2-overview-reseal": "exposure_282bb71419b84ab886c1bbb58dac6b4e",
+    "train-r2-overview-revised": "exposure_ef111054be144744a8a66abc632bf06b",
+    "train-r2-panel-reseal": "exposure_d78a2e06a0514f48abf716d762c130af",
+    "train-r3-overview-after-retire": "exposure_71353eefaefe4d8eba1288cded01d4d1",
+    "train-r3-strut-new": "exposure_0725df8709c344daa9a1a0b33999c902",
+    "train-r4-deck": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+    "train-r4-overview-final": "exposure_48e4811932f94f6bb107128c40b7b08e",
+    "train-r4-strut-final": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  "fingerprints": {
+    "fig-01-overview-baseline": {
+      "exposure_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+      "plate_id": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+      "status": "ready",
+      "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+    },
+    "fig-02-panel-baseline": {
+      "exposure_id": "exposure_36ce7bde69bb443e9112b8ef40dc480e",
+      "plate_id": "plate_6afeb07af8234a969d69baf34c9a1087",
+      "status": "ready",
+      "visual_hash": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+    },
+    "fig-03-strut-baseline": {
+      "exposure_id": "exposure_5518ef049ed74266858166305128a632",
+      "plate_id": "plate_7f6bddeead0140949c2108fac662379e",
+      "status": "ready",
+      "visual_hash": "6a0dc5d024b3f491bddb15883777545a730488ead3aa181395c282681b48a04d"
+    },
+    "fig-04-overview-reseal": {
+      "exposure_id": "exposure_282bb71419b84ab886c1bbb58dac6b4e",
+      "plate_id": "plate_b632431169734e9580cbaddc951fb865",
+      "status": "ready",
+      "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+    },
+    "fig-05-panel-reseal": {
+      "exposure_id": "exposure_d78a2e06a0514f48abf716d762c130af",
+      "plate_id": "plate_806d401658e041b0af6222c557bfa9bd",
+      "status": "ready",
+      "visual_hash": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+    },
+    "fig-06-overview-revised": {
+      "exposure_id": "exposure_ef111054be144744a8a66abc632bf06b",
+      "plate_id": "plate_481f925966ad4147bf5e305756090d48",
+      "status": "ready",
+      "visual_hash": "8e47f75cecf520356bd755c784e922415941f7769da4ad8fa97dbd780b0fe9ea"
+    },
+    "fig-07-overview-after-retire": {
+      "exposure_id": "exposure_71353eefaefe4d8eba1288cded01d4d1",
+      "plate_id": "plate_f8914abc8bf34a459597f41ddc2e06a6",
+      "status": "ready",
+      "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+    },
+    "fig-08-strut-new": {
+      "exposure_id": "exposure_0725df8709c344daa9a1a0b33999c902",
+      "plate_id": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+      "status": "ready",
+      "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+    },
+    "fig-09-deck-layout": {
+      "exposure_id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+      "plate_id": null,
+      "status": "failed",
+      "visual_hash": null
+    },
+    "fig-10-overview-final": {
+      "exposure_id": "exposure_48e4811932f94f6bb107128c40b7b08e",
+      "plate_id": "plate_f7ec3606cc33497f976a08188cff1ab8",
+      "status": "ready",
+      "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+    },
+    "fig-11-strut-final": {
+      "exposure_id": "exposure_ed1bccca77664c3ba033006b3e564ece",
+      "plate_id": "plate_0ec793a9f2ab412084a63a41c104aa71",
+      "status": "ready",
+      "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+    }
+  },
+  "flags": {
+    "deck_retried": true
+  },
+  "plates": {
+    "fig-01-overview-baseline": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+    "fig-02-panel-baseline": "plate_6afeb07af8234a969d69baf34c9a1087",
+    "fig-03-strut-baseline": "plate_7f6bddeead0140949c2108fac662379e",
+    "fig-04-overview-reseal": "plate_b632431169734e9580cbaddc951fb865",
+    "fig-05-panel-reseal": "plate_806d401658e041b0af6222c557bfa9bd",
+    "fig-06-overview-revised": "plate_481f925966ad4147bf5e305756090d48",
+    "fig-07-overview-after-retire": "plate_f8914abc8bf34a459597f41ddc2e06a6",
+    "fig-08-strut-new": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+    "fig-10-overview-final": "plate_f7ec3606cc33497f976a08188cff1ab8",
+    "fig-11-strut-final": "plate_0ec793a9f2ab412084a63a41c104aa71"
+  },
+  "proofs": {
+    "fig-01-overview-baseline": "proof_615a86dab53241f39cdc06fc93c292e4",
+    "fig-02-panel-baseline": "proof_76e8003700c840669b8673fef25f889e",
+    "fig-03-strut-baseline": "proof_1a93b0e2859a4a13bca03656327524b2",
+    "fig-04-overview-reseal": "proof_45b4a5b6e98b4531aa06816ea5e837dc",
+    "fig-05-panel-reseal": "proof_fbeb94196d5f473dbc2259eb608ceacd",
+    "fig-06-overview-revised": "proof_e3fc5c8528fa450e8d5fe0d05031d775",
+    "fig-07-overview-after-retire": "proof_20a7345ab4c54ef6b682133ec02b73eb",
+    "fig-08-strut-new": "proof_36df8e473ee8483092275f53eca380b5",
+    "fig-10-overview-final": "proof_87a52cd09a50452da68052898c5a970a",
+    "fig-11-strut-final": "proof_6c3f29f6a93e4c119e92d93a92ed9ccb"
+  },
+  "resources": {
+    "mesh.deck": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+    "mesh.panel": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+    "mesh.strut": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+    "pigment.amber": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+    "pigment.teal": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+  },
+  "run_seq": 3,
+  "seals": {
+    "deck": {
+      "content_hash": "7028d9128e8cfbc846d908052e8921c59fd836789dfef9f346b90ae9e52b09c0",
+      "id": "seal_a061a4440c944cb39fea7fa781524531"
+    },
+    "overview": {
+      "content_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+      "id": "seal_da80da01fca94744b12108c85a2c57e2"
+    },
+    "overview-revised": {
+      "content_hash": "3434bba292ee219518b795c6fafff8c2a20cc903a2eba9ee08273eb7d2c132dc",
+      "id": "seal_1f207653ce7c4319a843bd3e1c14598f"
+    },
+    "panel": {
+      "content_hash": "b5f58c9955996a812ad1db83a78ea9757fcc7ec92aee0d15bd6a4124d21a476f",
+      "id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58"
+    },
+    "strut": {
+      "content_hash": "b6dcddd732b364ff6ed3afffee10deef5218bee689c78ea7386fc476a5f50d58",
+      "id": "seal_cda364244ef247509041b24c4f21ae7b"
+    },
+    "strut-v2": {
+      "content_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+      "id": "seal_527c05ba30b54493a5b9ddb489adaa7f"
+    }
+  }
+}

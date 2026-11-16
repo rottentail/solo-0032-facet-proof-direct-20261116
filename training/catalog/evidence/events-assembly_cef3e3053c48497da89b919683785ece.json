@@ -1,0 +1,12 @@
+[
+  {
+    "action": "created",
+    "created": 1794839829.5963604,
+    "payload": {
+      "kind": "assembly",
+      "state": "draft"
+    },
+    "seq": 160,
+    "subject": "assembly_cef3e3053c48497da89b919683785ece"
+  }
+]

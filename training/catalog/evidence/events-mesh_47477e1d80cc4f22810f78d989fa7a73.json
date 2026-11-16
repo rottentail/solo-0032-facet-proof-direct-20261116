@@ -1,0 +1,12 @@
+[
+  {
+    "action": "created",
+    "created": 1794839827.490782,
+    "payload": {
+      "kind": "mesh",
+      "state": "usable"
+    },
+    "seq": 2,
+    "subject": "mesh_47477e1d80cc4f22810f78d989fa7a73"
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "channels": {
+    "color.png": {
+      "sha256": "1e4ed65ae2268491ec232e8a031e0f9db94e7b1925ac61c41f162ddf38c63b5d",
+      "size": 868
+    },
+    "color.rgb": {
+      "sha256": "d570b1093c4eb31f2d0ccee9bdef195110dce0c2e272543e78521734a77571b1",
+      "size": 49152
+    },
+    "depth.f32": {
+      "sha256": "daecdf3b1646550f647dc5820aeccf0cbae5e8aaf173529955c8563128d637fe",
+      "size": 65536
+    },
+    "depth.png": {
+      "sha256": "68cebf0227bcfbe8893993fef3a857c1a35d2c464060a3beeae40ea630fe8a25",
+      "size": 733
+    },
+    "object.png": {
+      "sha256": "1266b52abdbea895f968733c086da6a2c2753993b39d6d939486c66f6e97bdeb",
+      "size": 404
+    },
+    "object.u32": {
+      "sha256": "189bfd04102624467e86a6b69fc0066f7dc467ba7426153af51d9eae59f85ba9",
+      "size": 65536
+    }
+  },
+  "format": "facet-plate-1",
+  "picks": [
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+      "x": 127,
+      "y": 0
+    },
+    {
+      "depth": 4.542236804962158,
+      "object": {
+        "key": "strut",
+        "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+        "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+      },
+      "object_index": 1,
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+      "x": 41,
+      "y": 41
+    },
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+      "x": 64,
+      "y": 64
+    },
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+      "x": 127,
+      "y": 127
+    }
+  ],
+  "provenance": {
+    "assembly_id": "assembly_6ea7133628ce4962b829dbd9241f441b",
+    "assembly_revision": 2,
+    "exposure_id": "exposure_0725df8709c344daa9a1a0b33999c902",
+    "frozen_resources": [
+      {
+        "key": "strut",
+        "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+        "mesh_revision": 1,
+        "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+        "pigment_revision": 1
+      }
+    ],
+    "lens_hash": "2f5da23c75497a684b097620c7f67ba920443e195819840fda746bc16ee29c2d",
+    "objects": {
+      "1": {
+        "key": "strut",
+        "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+        "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+      }
+    },
+    "plate_id": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+    "renderer": "facet-raster-1",
+    "seal_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+  },
+  "summary": {
+    "background_pixels": 13561,
+    "covered_pixels": 2823,
+    "depth_units": "camera_forward_distance",
+    "finite_depth_range": [
+      3.7006683349609375,
+      4.542236804962158
+    ],
+    "height": 128,
+    "object_id_scope": "local_to_this_plate",
+    "objects": 1,
+    "samples": 2,
+    "width": 128
+  },
+  "trust": {
+    "external_authenticity": "Not established: an attacker can replace content and all bundle-local hashes",
+    "render_correctness": "Not established: channels are decoded and cross-checked, not independently re-rendered",
+    "review_validity": "Unknown: the ZIP contains no proof records or live quarantine state",
+    "verified": "Internal byte integrity and metadata/channel consistency only"
+  },
+  "valid": true
+}

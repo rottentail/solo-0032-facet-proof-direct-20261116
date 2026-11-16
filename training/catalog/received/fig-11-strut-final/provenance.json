@@ -1,0 +1,27 @@
+{
+  "assembly_id": "assembly_6ea7133628ce4962b829dbd9241f441b",
+  "assembly_revision": 2,
+  "exposure_id": "exposure_ed1bccca77664c3ba033006b3e564ece",
+  "frozen_resources": [
+    {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "mesh_revision": 1,
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_revision": 1
+    }
+  ],
+  "lens_hash": "2f5da23c75497a684b097620c7f67ba920443e195819840fda746bc16ee29c2d",
+  "objects": {
+    "1": {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+    }
+  },
+  "plate_id": "plate_0ec793a9f2ab412084a63a41c104aa71",
+  "renderer": "facet-raster-1",
+  "seal_hash": "d7a7cf62b64dcc59ff29a376e615651d3cf69e0d802e490064cece40ccd21f28",
+  "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+  "visual_hash": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+}

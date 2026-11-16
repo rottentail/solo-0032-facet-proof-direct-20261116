@@ -1,0 +1,22 @@
+[
+  {
+    "action": "created",
+    "created": 1794839827.4845822,
+    "payload": {
+      "kind": "mesh",
+      "state": "usable"
+    },
+    "seq": 1,
+    "subject": "mesh_70a3e62545464ceb9403957ec95b1e3b"
+  },
+  {
+    "action": "revised",
+    "created": 1794839829.6041236,
+    "payload": {
+      "revision": 2,
+      "state": "retired"
+    },
+    "seq": 161,
+    "subject": "mesh_70a3e62545464ceb9403957ec95b1e3b"
+  }
+]

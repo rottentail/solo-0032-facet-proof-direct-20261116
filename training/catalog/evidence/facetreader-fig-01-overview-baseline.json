@@ -1,0 +1,139 @@
+{
+  "channels": {
+    "color.png": {
+      "sha256": "23f56638f98105978edb486c2826b8b2357d6158ed09403bdddfab514c250e9d",
+      "size": 1073
+    },
+    "color.rgb": {
+      "sha256": "ac212437803f7e36d41fd790f410ea5140bb84b80dab468b75c004feb6b3151c",
+      "size": 49152
+    },
+    "depth.f32": {
+      "sha256": "47aee88363b0e57a8016a73cbfd6b53896ad47a716bcf6ab22129c87f579be4f",
+      "size": 65536
+    },
+    "depth.png": {
+      "sha256": "c11f8b6f297c874c4ae707b16d66a6c3cb23fc67d32df5d0bf39f581a4fedb87",
+      "size": 762
+    },
+    "object.png": {
+      "sha256": "3008a03e3b133d66824c0e899a619f8f16234b9ce04a90e695618e33b246aee9",
+      "size": 383
+    },
+    "object.u32": {
+      "sha256": "e1111ced24a0416bda70f5a9a17841d566c78b3fee2bb7b4ad1752a4169ffd4b",
+      "size": 65536
+    }
+  },
+  "format": "facet-plate-1",
+  "picks": [
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+      "x": 127,
+      "y": 0
+    },
+    {
+      "depth": 7.365120887756348,
+      "object": {
+        "key": "panel",
+        "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+        "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+      },
+      "object_index": 1,
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+      "x": 24,
+      "y": 39
+    },
+    {
+      "depth": 7.494783401489258,
+      "object": {
+        "key": "panel",
+        "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+        "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+      },
+      "object_index": 1,
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+      "x": 64,
+      "y": 64
+    },
+    {
+      "depth": null,
+      "object": null,
+      "object_index": 0,
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+      "x": 127,
+      "y": 127
+    }
+  ],
+  "provenance": {
+    "assembly_id": "assembly_76a90a4752cd4cda8803832305de4f21",
+    "assembly_revision": 2,
+    "exposure_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+    "frozen_resources": [
+      {
+        "key": "panel",
+        "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+        "mesh_revision": 1,
+        "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+        "pigment_revision": 1
+      },
+      {
+        "key": "strut",
+        "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+        "mesh_revision": 1,
+        "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+        "pigment_revision": 1
+      }
+    ],
+    "lens_hash": "e90a6e8a88c7599e563ccffec9541bdaef7d1c37b48224280716abef7c5c2e58",
+    "objects": {
+      "1": {
+        "key": "panel",
+        "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+        "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+      },
+      "2": {
+        "key": "strut",
+        "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+        "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+      }
+    },
+    "plate_id": "plate_107fa8ddaa3649aeb1490ce062bacb95",
+    "renderer": "facet-raster-1",
+    "seal_hash": "292ce629fc003fa0a096f7a79f949b5f193be5f6336156e548c25a3b5c456a15",
+    "seal_id": "seal_da80da01fca94744b12108c85a2c57e2",
+    "visual_hash": "eb0d7368264f207d56c324fd6128321461cb8105e2b8b23896499ad579d129eb"
+  },
+  "summary": {
+    "background_pixels": 13505,
+    "covered_pixels": 2879,
+    "depth_units": "camera_forward_distance",
+    "finite_depth_range": [
+      5.352877616882324,
+      8.097167015075684
+    ],
+    "height": 128,
+    "object_id_scope": "local_to_this_plate",
+    "objects": 2,
+    "samples": 2,
+    "width": 128
+  },
+  "trust": {
+    "external_authenticity": "Not established: an attacker can replace content and all bundle-local hashes",
+    "render_correctness": "Not established: channels are decoded and cross-checked, not independently re-rendered",
+    "review_validity": "Unknown: the ZIP contains no proof records or live quarantine state",
+    "verified": "Internal byte integrity and metadata/channel consistency only"
+  },
+  "valid": true
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "x": 127,
+    "y": 0
+  },
+  {
+    "depth": 4.542236804962158,
+    "object": {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+    },
+    "object_index": 1,
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "x": 41,
+    "y": 41
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "x": 64,
+    "y": 64
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f",
+    "x": 127,
+    "y": 127
+  }
+]

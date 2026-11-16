@@ -1,0 +1,50 @@
+[
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+    "x": 127,
+    "y": 0
+  },
+  {
+    "depth": 4.256001949310303,
+    "object": {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+    },
+    "object_index": 1,
+    "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+    "x": 53,
+    "y": 27
+  },
+  {
+    "depth": 3.788139820098877,
+    "object": {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa"
+    },
+    "object_index": 1,
+    "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+    "x": 64,
+    "y": 64
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_cda364244ef247509041b24c4f21ae7b",
+    "x": 127,
+    "y": 127
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "cross_round_key_reuse": {
+    "attempted_seal": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "expected": "key_conflict",
+    "key": "train-r1-overview",
+    "observed": {
+      "code": "key_conflict",
+      "detail": "Key already names a different exposure",
+      "http_status": 409
+    }
+  },
+  "replay_same_request": {
+    "exposure_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+    "key": "train-r1-overview",
+    "replayed_id": "exposure_09c6663cfb3b4df7a258a4e16f1d6da8",
+    "same_exposure": true
+  }
+}

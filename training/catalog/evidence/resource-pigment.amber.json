@@ -1,0 +1,24 @@
+{
+  "created": 1794839827.526557,
+  "id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+  "kind": "pigment",
+  "payload": {
+    "color": [
+      0.85,
+      0.45,
+      0.15
+    ],
+    "linear": [
+      0.692071056865372,
+      0.17064493581555268,
+      0.01960664851623822
+    ],
+    "name": "赭橙",
+    "roughness": 0.65,
+    "specular": 0.2,
+    "two_sided": true
+  },
+  "revision": 1,
+  "state": "usable",
+  "updated": 1794839827.526557
+}

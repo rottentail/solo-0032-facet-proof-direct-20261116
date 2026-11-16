@@ -1,0 +1,24 @@
+{
+  "created": 1794839827.5213099,
+  "id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+  "kind": "pigment",
+  "payload": {
+    "color": [
+      0.16,
+      0.32,
+      0.85
+    ],
+    "linear": [
+      0.021980947079887205,
+      0.0835351274258047,
+      0.692071056865372
+    ],
+    "name": "釉青",
+    "roughness": 0.65,
+    "specular": 0.2,
+    "two_sided": true
+  },
+  "revision": 2,
+  "state": "usable",
+  "updated": 1794839828.6096642
+}

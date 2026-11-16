@@ -1,0 +1,15 @@
+{
+  "color_changed": 0,
+  "depth_changed": 0,
+  "left": "plate_0ec793a9f2ab412084a63a41c104aa71",
+  "maximum_depth_delta": 0.0,
+  "mean_channel_delta": 0.0,
+  "pass_hashes": {
+    "left": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa",
+    "right": "d87a8acdea00681ede7a544543d725afd775132a5706a8620f937585a03933fa"
+  },
+  "pixels": 16384,
+  "right": "plate_49a31d3e5ac64250a7cbd3c3074308d0",
+  "silhouette_changed": 0,
+  "tolerance": 2.0
+}

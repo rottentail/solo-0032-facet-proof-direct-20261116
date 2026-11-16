@@ -1,0 +1,30 @@
+{
+  "allocation": {
+    "active": 0,
+    "exposure_id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+    "generation": 2,
+    "release_reason": "failed",
+    "released": 1794839831.0558422,
+    "reserved": 1794839831.021714,
+    "units": 65536
+  },
+  "attempt": 2,
+  "cancel_requested": 0,
+  "created": 1794839830.4811,
+  "dedup_key": "train-r4-deck",
+  "error": "capacity",
+  "id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+  "lease_until": null,
+  "plate_id": null,
+  "request": {
+    "height": 128,
+    "renderer": "facet-raster-1",
+    "samples": 2,
+    "width": 128
+  },
+  "request_hash": "8807382632c0df52cc6ccc544c5b8d357a6a074f9ed5ef2216e80f8c2a6bc356",
+  "seal_id": "seal_a061a4440c944cb39fea7fa781524531",
+  "state": "failed",
+  "token": null,
+  "updated": 1794839831.0557706
+}

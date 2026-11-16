@@ -1,0 +1,347 @@
+[
+  {
+    "action": "capacity_reserved",
+    "created": 1794839830.4939327,
+    "payload": {
+      "generation": 1,
+      "units": 65536
+    },
+    "seq": 220,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "queued",
+    "created": 1794839830.4940124,
+    "payload": {
+      "seal_id": "seal_527c05ba30b54493a5b9ddb489adaa7f"
+    },
+    "seq": 221,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "claimed",
+    "created": 1794839830.769864,
+    "payload": {
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 245,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tiles_prepared",
+    "created": 1794839830.7761834,
+    "payload": {
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "tile_size": 64,
+      "tiles": 16
+    },
+    "seq": 246,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.7825198,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 0,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 247,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.788913,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        64,
+        0,
+        128,
+        64
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 1,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 248,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.7949328,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        128,
+        0,
+        192,
+        64
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 2,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 249,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.801642,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        192,
+        0,
+        256,
+        64
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 3,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 250,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8111484,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        0,
+        64,
+        64,
+        128
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 4,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 251,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8230753,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        64,
+        64,
+        128,
+        128
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 5,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 252,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8307028,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        128,
+        64,
+        192,
+        128
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 6,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 253,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8374116,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        192,
+        64,
+        256,
+        128
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 7,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 254,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8493886,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        0,
+        128,
+        64,
+        192
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 8,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 255,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8663647,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        64,
+        128,
+        128,
+        192
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 9,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 256,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8757448,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        128,
+        128,
+        192,
+        192
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 10,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 257,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8820763,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        192,
+        128,
+        256,
+        192
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 11,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 258,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.8899655,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        0,
+        192,
+        64,
+        256
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 12,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 259,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.9009929,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        64,
+        192,
+        128,
+        256
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 13,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 260,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.9088252,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        128,
+        192,
+        192,
+        256
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 14,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 261,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "tile_committed",
+    "created": 1794839830.915447,
+    "payload": {
+      "attempt": 1,
+      "bounds": [
+        192,
+        192,
+        256,
+        256
+      ],
+      "fingerprint": "9173c1dd67ce002f12699be907dd023dc8df8618c7d30acf72ceb785d53fb164",
+      "ordinal": 15,
+      "token": "lease_cffaf2306ee446bfaa18e0eed2d72271"
+    },
+    "seq": 262,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "succeeded",
+    "created": 1794839831.004779,
+    "payload": {
+      "plate_id": "plate_0ec793a9f2ab412084a63a41c104aa71"
+    },
+    "seq": 263,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  },
+  {
+    "action": "capacity_released",
+    "created": 1794839831.004875,
+    "payload": {
+      "reason": "succeeded"
+    },
+    "seq": 264,
+    "subject": "exposure_ed1bccca77664c3ba033006b3e564ece"
+  }
+]

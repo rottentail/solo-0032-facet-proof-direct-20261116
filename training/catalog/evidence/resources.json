@@ -1,0 +1,9 @@
+{
+  "available": 4194304,
+  "capacity": 4194304,
+  "overcommitted": 0,
+  "physical_memory_limit": false,
+  "reserved": 0,
+  "revision": 1,
+  "unit": "high_sample_pixel"
+}

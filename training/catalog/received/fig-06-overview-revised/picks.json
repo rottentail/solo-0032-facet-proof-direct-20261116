@@ -1,0 +1,50 @@
+[
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "x": 127,
+    "y": 0
+  },
+  {
+    "depth": 7.365120887756348,
+    "object": {
+      "key": "panel",
+      "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+    },
+    "object_index": 1,
+    "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "x": 24,
+    "y": 39
+  },
+  {
+    "depth": 7.494783401489258,
+    "object": {
+      "key": "panel",
+      "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+    },
+    "object_index": 1,
+    "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "x": 64,
+    "y": 64
+  },
+  {
+    "depth": null,
+    "object": null,
+    "object_index": 0,
+    "seal_id": "seal_1f207653ce7c4319a843bd3e1c14598f",
+    "x": 127,
+    "y": 127
+  }
+]

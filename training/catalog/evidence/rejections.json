@@ -1,0 +1,20 @@
+[
+  {
+    "expected": "retired",
+    "observed": {
+      "code": "retired",
+      "detail": "Geometry retired before seal",
+      "http_status": 409
+    },
+    "operation": "冻结引用已停用网格的草稿（面板新方案）"
+  },
+  {
+    "expected": "retired",
+    "observed": {
+      "code": "retired",
+      "detail": "Cannot place retired geometry",
+      "http_status": 409
+    },
+    "operation": "在新草稿中放置已停用网格"
+  }
+]

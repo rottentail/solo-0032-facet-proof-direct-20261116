@@ -1,0 +1,27 @@
+{
+  "assembly_id": "assembly_015aa8d0b8da42de88f7205a71f628e7",
+  "assembly_revision": 2,
+  "exposure_id": "exposure_36ce7bde69bb443e9112b8ef40dc480e",
+  "frozen_resources": [
+    {
+      "key": "panel",
+      "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "mesh_revision": 1,
+      "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2",
+      "pigment_revision": 1
+    }
+  ],
+  "lens_hash": "58e992f0c8a73eb922cd013124a86acd94f8a471440f8f3251f283576588cc49",
+  "objects": {
+    "1": {
+      "key": "panel",
+      "mesh_id": "mesh_70a3e62545464ceb9403957ec95b1e3b",
+      "pigment_id": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+    }
+  },
+  "plate_id": "plate_6afeb07af8234a969d69baf34c9a1087",
+  "renderer": "facet-raster-1",
+  "seal_hash": "b5f58c9955996a812ad1db83a78ea9757fcc7ec92aee0d15bd6a4124d21a476f",
+  "seal_id": "seal_bb3b3a24d36f4d2d9e8678fcfedbea58",
+  "visual_hash": "7ff4f8c06a137b99240e03b8567abc48c3ee228c0ee31c3912dd237aa29c9a04"
+}

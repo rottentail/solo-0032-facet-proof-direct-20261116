@@ -1,0 +1,363 @@
+{
+  "assembly_id": "assembly_6e1d539fb2924826b8e1c23573650877",
+  "assembly_revision": 2,
+  "content_hash": "7028d9128e8cfbc846d908052e8921c59fd836789dfef9f346b90ae9e52b09c0",
+  "frozen_resources": [
+    {
+      "key": "deck-00",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-01",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-02",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-03",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-04",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-05",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-06",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-07",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-08",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-09",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-10",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-11",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-12",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-13",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-14",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-15",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-16",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-17",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-18",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-19",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    },
+    {
+      "key": "deck-20",
+      "mesh_id": "mesh_a68b8f4aad2749fb98163d1725e44b5b",
+      "mesh_name": "格栅甲板",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    }
+  ],
+  "illumination": {
+    "ambient": 0.16,
+    "background": [
+      0.93,
+      0.95,
+      0.97
+    ],
+    "lights": [
+      {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "direction": [
+          0.2672612419124244,
+          0.5345224838248488,
+          0.8017837257372732
+        ],
+        "intensity": 0.8
+      }
+    ]
+  },
+  "lens": {
+    "eye": [
+      0.0,
+      -26.0,
+      16.0
+    ],
+    "far": 100.0,
+    "forward": [
+      0.0,
+      0.851658316704544,
+      -0.5240974256643347
+    ],
+    "fov": 50.0,
+    "near": 0.1,
+    "projection": "perspective",
+    "right": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "span": 5.0,
+    "target": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "true_up": [
+      0.0,
+      0.5240974256643347,
+      0.851658316704544
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "name": "整舰布局图",
+  "seal_id": "seal_a061a4440c944cb39fea7fa781524531"
+}

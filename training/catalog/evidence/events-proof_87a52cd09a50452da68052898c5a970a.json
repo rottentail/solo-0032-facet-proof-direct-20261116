@@ -1,0 +1,20 @@
+[
+  {
+    "action": "opened",
+    "created": 1794839831.835496,
+    "payload": {
+      "plate_id": "plate_f7ec3606cc33497f976a08188cff1ab8"
+    },
+    "seq": 294,
+    "subject": "proof_87a52cd09a50452da68052898c5a970a"
+  },
+  {
+    "action": "accepted",
+    "created": 1794839831.841859,
+    "payload": {
+      "plate_id": "plate_f7ec3606cc33497f976a08188cff1ab8"
+    },
+    "seq": 295,
+    "subject": "proof_87a52cd09a50452da68052898c5a970a"
+  }
+]

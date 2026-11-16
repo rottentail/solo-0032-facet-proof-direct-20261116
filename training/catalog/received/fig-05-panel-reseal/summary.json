@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "background_pixels": 11057,
+    "covered_pixels": 5327,
+    "depth_units": "camera_forward_distance",
+    "finite_depth_range": [
+      3.44093656539917,
+      5.020038604736328
+    ],
+    "height": 128,
+    "object_id_scope": "local_to_this_plate",
+    "objects": 1,
+    "samples": 2,
+    "width": 128
+  },
+  "trust": {
+    "external_authenticity": "Not established: an attacker can replace content and all bundle-local hashes",
+    "render_correctness": "Not established: channels are decoded and cross-checked, not independently re-rendered",
+    "review_validity": "Unknown: the ZIP contains no proof records or live quarantine state",
+    "verified": "Internal byte integrity and metadata/channel consistency only"
+  }
+}

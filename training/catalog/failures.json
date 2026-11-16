@@ -1,0 +1,35 @@
+{
+  "failures": [
+    {
+      "evidence": {
+        "batch": "catalog/evidence/batch-round4.json",
+        "events": "catalog/evidence/events-exposure_67bafd0cfa9a418d87fcfc3e4a329f6b.json",
+        "exposure": "catalog/evidence/exposure-train-r4-deck.json"
+      },
+      "failure": {
+        "attempt": 2,
+        "error": "capacity",
+        "note": "冻结成功、渲染超 40000 源面额度；重试后仍以相同错误失败，属确定性失败。",
+        "retried": true,
+        "state": "failed"
+      },
+      "files": {
+        "failure_notice": "atlas/fig-09-deck-layout/FAILED.md"
+      },
+      "lesson": "冻结成功但渲染超出 40000 源面额度：曝光终态 failed，重试仍失败，证据可查询。",
+      "round": 4,
+      "slug": "fig-09-deck-layout",
+      "source": {
+        "exposure_id": "exposure_67bafd0cfa9a418d87fcfc3e4a329f6b",
+        "exposure_key": "train-r4-deck",
+        "seal_content_hash": "7028d9128e8cfbc846d908052e8921c59fd836789dfef9f346b90ae9e52b09c0",
+        "seal_id": "seal_a061a4440c944cb39fea7fa781524531"
+      },
+      "status": "failed",
+      "title": "整舰布局图（批量·失败）"
+    }
+  ],
+  "query": "python3 -m facetproof --root training/data 重启服务后，GET /facet/v1/exposures/{exposure_id} 与 /events/{exposure_id}/history",
+  "run_seq": 3,
+  "schema": "facet-training-failures-1"
+}

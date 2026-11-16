@@ -1,0 +1,22 @@
+[
+  {
+    "action": "created",
+    "created": 1794839827.5213745,
+    "payload": {
+      "kind": "pigment",
+      "state": "usable"
+    },
+    "seq": 4,
+    "subject": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+  },
+  {
+    "action": "revised",
+    "created": 1794839828.6097467,
+    "payload": {
+      "revision": 2,
+      "state": "usable"
+    },
+    "seq": 87,
+    "subject": "pigment_6fd20693a5694d12aad0a175ed3105d2"
+  }
+]

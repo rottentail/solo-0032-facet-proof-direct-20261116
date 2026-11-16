@@ -1,0 +1,83 @@
+{
+  "assembly_id": "assembly_9092b819771c4a108191697b28a47677",
+  "assembly_revision": 2,
+  "content_hash": "b6dcddd732b364ff6ed3afffee10deef5218bee689c78ea7386fc476a5f50d58",
+  "frozen_resources": [
+    {
+      "key": "strut",
+      "mesh_id": "mesh_47477e1d80cc4f22810f78d989fa7a73",
+      "mesh_name": "三角支架",
+      "mesh_revision": 1,
+      "pigment_color": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "pigment_id": "pigment_357a75e163ea4f14b795a251a43aa1fa",
+      "pigment_name": "赭橙",
+      "pigment_revision": 1
+    }
+  ],
+  "illumination": {
+    "ambient": 0.16,
+    "background": [
+      0.93,
+      0.95,
+      0.97
+    ],
+    "lights": [
+      {
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "direction": [
+          0.2672612419124244,
+          0.5345224838248488,
+          0.8017837257372732
+        ],
+        "intensity": 0.8
+      }
+    ]
+  },
+  "lens": {
+    "eye": [
+      2.8,
+      2.2,
+      3.4
+    ],
+    "far": 100.0,
+    "forward": [
+      -0.5453054798270401,
+      -0.4030518763938993,
+      -0.7349769510712281
+    ],
+    "fov": 45.0,
+    "near": 0.1,
+    "projection": "perspective",
+    "right": [
+      0.8030980282338017,
+      0.0,
+      -0.5958469241734657
+    ],
+    "span": 5.0,
+    "target": [
+      0.5,
+      0.5,
+      0.3
+    ],
+    "true_up": [
+      -0.24015722083164884,
+      0.9151771330924725,
+      -0.3236901672078745
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "name": "支架特写",
+  "seal_id": "seal_cda364244ef247509041b24c4f21ae7b"
+}

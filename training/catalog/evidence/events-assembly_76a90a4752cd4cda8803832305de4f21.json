@@ -1,0 +1,41 @@
+[
+  {
+    "action": "created",
+    "created": 1794839827.5318449,
+    "payload": {
+      "kind": "assembly",
+      "state": "draft"
+    },
+    "seq": 6,
+    "subject": "assembly_76a90a4752cd4cda8803832305de4f21"
+  },
+  {
+    "action": "revised",
+    "created": 1794839827.5390553,
+    "payload": {
+      "revision": 2,
+      "state": "draft"
+    },
+    "seq": 7,
+    "subject": "assembly_76a90a4752cd4cda8803832305de4f21"
+  },
+  {
+    "action": "revised",
+    "created": 1794839827.5470421,
+    "payload": {
+      "revision": 3,
+      "state": "sealed"
+    },
+    "seq": 9,
+    "subject": "assembly_76a90a4752cd4cda8803832305de4f21"
+  },
+  {
+    "action": "sealed",
+    "created": 1794839827.5470753,
+    "payload": {
+      "seal_id": "seal_da80da01fca94744b12108c85a2c57e2"
+    },
+    "seq": 10,
+    "subject": "assembly_76a90a4752cd4cda8803832305de4f21"
+  }
+]
